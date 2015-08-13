@@ -23,6 +23,18 @@ Then, wherever you wish to format your number, use the following filter markup:
 
 ```html
 <div>
-    {{vm.results.generalNumber | i18numbr: vm.selectedCulture.code : 2}}
+    {{vm.someNumber | i18numbr: "en-GB" : 2}}
 </div>
 ```
+The two parameters are for Culture Code and Decimal Precision (optional).
+
+If the value being filtered is not a number, it will not be affected.
+
+If the culture code passed in does not start with a valid or recognised language, it will default to comma/dot notation - e.g. 33,273.22
+
+Decimal Precision is optional - if present, it will truncate values with longer precision, rather than round up. It will also pad values with shorter precision so it has the required precision - e.g. 33,273.2200 if 4 is passed in.
+
+Supported Languages:
+
+
+
