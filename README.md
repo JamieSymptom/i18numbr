@@ -22,13 +22,13 @@ In your angular application's module, include i18numbr as a dependency:
 
 ## Filter Parameters
 
-###Culture Code
+####Culture Code
 
 Can be language only ("en") and include locales ("en-GB") or script ("en-Latn-GB"). Only the language part of the code is taken into account, as there is no variation of number formatting between locales and scripts.
 
 If the culture code passed in does not start with a valid or recognised language, it will default to comma/dot notation - e.g. 33,273.22
 
-###Precision (optional)
+####Precision (optional)
 
 If present, it will truncate values with longer precision, rather than round up. It will also pad values with shorter precision so it has the required precision - e.g. 33,273.2200 if 4 is passed in.
 
@@ -44,7 +44,7 @@ Use the following filter markup:
 
 If the value being filtered is not a number, it will not be affected.
 
-##Supported Languages:
+##Supported Languages
 
 
 
