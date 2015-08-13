@@ -19,3 +19,10 @@ In your angular application's module, include i18numbr as a dependency:
 
 })();
 ```
+Then, wherever you wish to format your number, use the following filter markup:
+
+```html
+<div>
+    {{vm.results.generalNumber | i18numbr: vm.selectedCulture.code : 2}}
+</div>
+```
