@@ -7,4 +7,15 @@ This has been designed to be as lightweight as possible, with no external depend
 
 ## Usage
 
-Reference *i18numbr.min.js* in your project
+Reference **_i18numbr.min.js_** in your project.
+
+In your angular application's module, include i18numbr as a dependency:
+
+```javascript
+(function () {
+    'use strict';
+
+    angular.module('app', ['i18numbr']);
+
+})();
+```
