@@ -26,6 +26,10 @@
     "src",
     ".gitignore",
     "LICENSE",
-    "README.md"
+    "README.md",
+    ".bower.json",
+    "bower.json",
+    "gulpfile.js",
+    "package.json"
   ]
 }
