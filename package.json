@@ -1,0 +1,27 @@
+{
+  "name": "i18numbr",
+  "version": "1.0.0",
+  "description": "Lightweight cultural number formatter",
+  "main": "i18numbr.min.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-uglify": "^1.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JamieSymptom/i18numbr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamieSymptom/i18numbr/issues"
+  },
+  "homepage": "https://github.com/JamieSymptom/i18numbr"
+}

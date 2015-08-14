@@ -97,6 +97,9 @@
                 parts[0] = parts[0].split(/(?=(?:\d{3})+(?:\.|$))/g).join(thousands);
 
                 if (precision) {
+                    
+                    //TODO: add optional rounding parameter
+                    
                     if (parts[1]) {
                         if (parts[1].length >= precision) {
                             parts[1] = parts[1].substring(0, precision);
