@@ -1,0 +1,31 @@
+{
+  "name": "i18numbr",
+  "version": "0.1.0",
+  "homepage": "https://github.com/JamieSymptom/i18numbr",
+  "authors": [
+    "Jamie Hirst <jamiehirst@live.co.uk>"
+  ],
+  "description": "Lightweight cultural number formatter",
+  "main": "i18numbr.min.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "i18n",
+    "formatting",
+    "number",
+    "culture"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    ".gitignore",
+    "LICENSE",
+    "README.md"
+  ]
+}
