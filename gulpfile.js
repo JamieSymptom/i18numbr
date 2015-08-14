@@ -3,7 +3,7 @@ var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 
 var config = {
-    i18numbr: ['src/*.js']
+    i18numbr: ['src/i18numbr.module.js', 'src/i18numbr.filter.js']
 };
 
 gulp.task('i18numbr-min', function () {
