@@ -110,7 +110,7 @@
                         parts[1] = zeroes.substring(0, precision);
                     }
                 }
-                if(parts[1]) {
+                if(parts[1] && precision !== 0) {
                     return parts[0] + decimal + parts[1];
                 }
                 else {
