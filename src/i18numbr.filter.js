@@ -110,8 +110,12 @@
                         parts[1] = zeroes.substring(0, precision);
                     }
                 }
-
-                return parts[0] + decimal + parts[1];
+                if(parts[1]) {
+                    return parts[0] + decimal + parts[1];
+                }
+                else {
+                    return parts[0];
+                }
             }
 
             function isNumeric(n) {
